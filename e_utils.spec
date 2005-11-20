@@ -1,4 +1,5 @@
-Summary:	e_utils
+Summary:	e_utils - useful utilities for Enlightenment DR17
+Summary(pl):	e_utils - przydatne narzêdzia dla Enlightenmenta DR17
 Name:		e_utils
 Version:	0.0.1
 %define	_snap	20051116
@@ -20,7 +21,10 @@ BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-e_utils
+e_utils - useful utilities for Enlightenment DR17.
+
+%description -l pl
+e_utils - przydatne narzêdzia dla Enlightenmenta DR17.
 
 %prep
 %setup -q -n %{name}
@@ -50,18 +54,18 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/e17setroot
 
 %attr(755,root,root) %{_bindir}/e_util_eapp_edit
-#%{_datadir}/%{name}/data/e_utils_eapp_edit/*
+#%{_datadir}/%{name}/data/e_utils_eapp_edit
 
 %attr(755,root,root) %{_bindir}/emblem
-#%{_datadir}/%{name}/data/emblem/*
+#%{_datadir}/%{name}/data/emblem
 %{_datadir}/enlightenmentDR17/config-apps/emblem.eap
 
 %attr(755,root,root) %{_bindir}/entangle
-#%{_datadir}/%{name}/data/entangle/*
+#%{_datadir}/%{name}/data/entangle
 %{_datadir}/enlightenmentDR17/config-apps/entangle.eap
 
 %attr(755,root,root) %{_bindir}/exige
-#%{_datadir}/%{name}/data/exige/*
+#%{_datadir}/%{name}/data/exige
 
 %attr(755,root,root) %{_bindir}/ethemes
 %{_datadir}/enlightenmentDR17/config-apps/ethemes.eap
