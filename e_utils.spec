@@ -2,13 +2,13 @@ Summary:	e_utils - useful utilities for Enlightenment DR17
 Summary(pl):	e_utils - przydatne narzêdzia dla Enlightenmenta DR17
 Name:		e_utils
 Version:	0.0.1
-%define	_snap	20051116
-Release:	0.%{_snap}.0.1
+%define	_snap	20060312
+Release:	0.%{_snap}.1
 License:	BSD
 Group:		X11/Applications
 #Source0:	http://dl.sourceforge.net/enlightenment/%{name}-%{version}.tar.gz
 Source0:	http://sparky.homelinux.org/snaps/enli/e17/apps/%{name}-%{_snap}.tar.bz2
-# Source0-md5:	6d098dd1a076f7d81a0647f64810187c
+# Source0-md5:	c2ddb92830739da17ddc9f03821abace
 URL:		http://enlightenment.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -51,6 +51,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS COPYING README
 %{_datadir}/%{name}
+%attr(755,root,root) %{_bindir}/e17genmenu
+
 %attr(755,root,root) %{_bindir}/e17setroot
 
 %attr(755,root,root) %{_bindir}/e_util_eapp_edit
