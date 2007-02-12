@@ -1,5 +1,5 @@
 Summary:	e_utils - useful utilities for Enlightenment DR17
-Summary(pl):	e_utils - przydatne narzêdzia dla Enlightenmenta DR17
+Summary(pl.UTF-8):   e_utils - przydatne narzÄ™dzia dla Enlightenmenta DR17
 Name:		e_utils
 Version:	0.0.1
 %define	_snap	20060312
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 e_utils - useful utilities for Enlightenment DR17.
 
-%description -l pl
-e_utils - przydatne narzêdzia dla Enlightenmenta DR17.
+%description -l pl.UTF-8
+e_utils - przydatne narzÄ™dzia dla Enlightenmenta DR17.
 
 %prep
 %setup -q -n %{name}
