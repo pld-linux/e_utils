@@ -1,5 +1,5 @@
 Summary:	e_utils - useful utilities for Enlightenment DR17
-Summary(pl.UTF-8):   e_utils - przydatne narzędzia dla Enlightenmenta DR17
+Summary(pl.UTF-8):	e_utils - przydatne narzędzia dla Enlightenmenta DR17
 Name:		e_utils
 Version:	0.0.1
 %define	_snap	20060312
